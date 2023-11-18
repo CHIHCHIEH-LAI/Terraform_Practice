@@ -14,4 +14,4 @@ terraform -v
 
 `terraform apply`
 
-`terraform destroy`
+`terraform destroy` or simply comment out the code
