@@ -123,12 +123,12 @@ resource "aws_instance" "web-server-instance" {
   ami = "ami-0fc5d935ebf8bc3bc"
   instance_type = "t2.micro"
   availability_zone = "us-east-1a"
+  count = 1
   key_name = "main-key"
   network_interface {
     device_index = 0
     network_interface_id = aws_network_interface.web-server-nic.id
   }
-
   user_data = <<-EOF
                 #!/bin/bash
                 sudo apt update -y
