@@ -6,3 +6,8 @@ Run the following command to verify terraform is installed.
 ```
 terraform -v
 ```
+
+### Commands
+terraform init
+terraform plan
+terraform apply
