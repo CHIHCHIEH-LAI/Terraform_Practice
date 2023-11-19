@@ -12,5 +12,5 @@ terraform -v
 terraform init
 terraform plan
 terraform apply
-terraform destroy // or simply comment out the code
+terraform destroy (or simply comment out the code)
 ``` 
