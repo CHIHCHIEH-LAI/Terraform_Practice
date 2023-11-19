@@ -8,10 +8,9 @@ terraform -v
 ```
 
 ### Commands
-`terraform init`
-
-`terraform plan`
-
-`terraform apply`
-
-`terraform destroy` or simply comment out the code
+```
+terraform init
+terraform plan
+terraform apply
+terraform destroy // or simply comment out the code
+``` 
